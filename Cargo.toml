@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "chapter04",
+    "chapter05",
+    # Add more chapters as you go
+]
+resolver = "2"
