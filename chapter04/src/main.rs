@@ -45,7 +45,7 @@
 
 //fixing unsafe program :copying vs moving out of a collection 
 
-use std::{println};
+// use std::{println};
 
 // fn copying_moving_out(){
 
@@ -120,6 +120,69 @@ use std::{println};
 // }
 
 //  the slice type 
-fn main (){
 
-}
+//     fn first_letter(s: &String)->usize{
+//         let bytes =s.as_bytes() ;
+
+//         for(i,&item) in bytes.iter().enumerate(){
+//             if item == b' '{
+//                 return i
+//         }
+
+//     }
+//     s.len()
+
+// }
+
+
+// fn main (){
+//  let mut s = String::from("hello ramesh hi");
+
+
+//  let word = first_letter(&s);
+
+//  s.clear();
+//   println!("{word}")
+// }
+// this code does not get thte track of s and this could be error prone
+
+// fn main(){
+
+
+//     let mut s =String::from("hellow");
+
+//     let hellow:&str=&s[0..6];
+
+
+//     println!("{hellow}");
+
+//     s.push_str(" world");
+
+//     let world:&str =&s[0..12];
+
+//     println!("{world}")
+// //string slicrers are fat pointers 
+
+// }
+
+
+
+// fn first_word(s: &String) -> &str {
+//     let bytes = s.as_bytes();
+
+//     for (i,&item )in bytes.iter().enumerate(){ also bytes.iter will produce a immutable refernce 
+//         if item==b' '{
+//             return &s[0..i]
+//         }
+//     }
+//     &s[..]
+
+// }
+
+// fn main() {
+//     let string =String::from("hi hello");
+//     let f=first_word(&string);
+
+//     println!("{f}");
+
+// }
