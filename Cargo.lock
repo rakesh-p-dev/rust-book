@@ -11,5 +11,9 @@ name = "chapter05"
 version = "0.1.0"
 
 [[package]]
-name = "packeages"
+name = "chapter8"
+version = "0.1.0"
+
+[[package]]
+name = "restaurant"
 version = "0.1.0"
