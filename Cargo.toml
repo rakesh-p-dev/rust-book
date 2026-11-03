@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "chapter04",
-    "chapter05", "chapter8", "restaurant",
+    "chapter05", "chapter8", "error", "restaurant",
     # Add more chapters as you go
 ]
 resolver = "2"
